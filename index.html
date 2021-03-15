@@ -9,45 +9,65 @@
     <script src="https://kit.fontawesome.com/895cbf6305.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div>
-        <nav id="navbar">
-            <ul class="navbar__menu">
-                <li class="navbar__logo">
-                    <a href="#">TRACY NUWAGABA</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#welcome-section" class="navbar__link">Home</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#about" class="navbar__link">About</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#projects" class="navbar__link">Projects</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#blog" class="navbar__link">Blog</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#contact" class="navbar__link">Contact</a>
-                </li>
-                <li class="navbar__toggle">
-                    <a href="#"><i class="fas fa-bars"></i></a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+    <!-- HEADER -->
+    <header>
+        <section>
+            <nav id="navbar">
+                <ul class="navbar__menu">
+                    <li class="navbar__logo">
+                        <a href="#">TRACY NUWAGABA</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#welcome-section" class="navbar__link">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#about" class="navbar__link">About</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#projects" class="navbar__link">Projects</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#blog" class="navbar__link">Blog</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#contact" class="navbar__link">Contact</a>
+                    </li>
+                    <li class="navbar__toggle">
+                        <a href="#"><i class="fas fa-bars"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </header>
 
-    <section id="welcome-section">
+    <main>
+        <!-- HOME -->
+        <section id="welcome-section" class="home">
+            <div class="home__container bd-grid">
+                <h1 class="home__title"><span>HE</span><br>LLO</h1>
 
-    </section>
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-link"><i class="bx bx-up-arrow-alt"></i>Scroll down</a>
+                </div>
 
-    <section id="about"></section>
+                <img src="" alt="" class="home__img">
+            </div>
+        </section>
 
-    <section id="projects"></section>
+        <section id="about">
+            <img src="" alt="">
+            <h1>Hey, I'm Tracy.</h1>
+            <p>I'm a frontend developer that is passionate about building user friendly websites.</p>
+            <button class="hire-btn">Hire me</button>
+            <button class="down-cv">Download CV</button>
+        </section>
 
-    <section id="contact"></section>
+        <section id="projects"></section>
 
-    <footer></footer>
+        <section id="contact"></section>
+
+        <footer></footer>
+    </main>
 
     <script src="app.js"></script>
 </body>
